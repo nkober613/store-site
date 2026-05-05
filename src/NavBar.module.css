@@ -1,0 +1,18 @@
+.navbar {
+  padding: 12px 20px;
+  background-color: #9b75d0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link:hover {
+  opacity: 0.8;
+}

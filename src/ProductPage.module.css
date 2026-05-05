@@ -1,0 +1,45 @@
+.container {
+  padding: 30px;
+}
+
+.productBox {
+  display: flex;
+  gap: 40px;
+  max-width: 900px;
+  margin: 0 auto;
+  align-items: flex-start;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.image {
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+}
+
+.details {
+  flex: 1;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: indigo;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: black;
+}
